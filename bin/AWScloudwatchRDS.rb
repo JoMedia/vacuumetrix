@@ -58,6 +58,7 @@ endTime = Time.now.utc - options[:end_offset].to_i
 metricNames = {"CPUUtilization" => "Percent",
                "DatabaseConnections" => "Count",
                "FreeStorageSpace" => "Bytes",
+               "FreeableMemory" => "Bytes",
                "ReadIOPS" => "Count/Second",
                "ReadLatency" => "Seconds",
                "ReadThroughput" => "Bytes/Second",
